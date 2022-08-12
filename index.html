@@ -4,60 +4,79 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   </head>
   <body>
-    <div>
-        <p>Home</p>
-        <p>About me</p>
-        <p>Skills</p>
-        <p>Portfolio</p>
-        <p>Contacts</p>
-    </div>
-    <div>
-        <h1>Denis Novik</h1>
-    </div>
-    <div>
-        <p>UX | UI designer 24 years old, Minsk</p>
-    </div>
-    <div>
-        <p>RU | ENG</p>
-    </div>
-    <img
-      srcset="/sources/img/photo.png, /sources/img/photo@2x.png 2x"
-      src="/sources/img/photo.png"
-      alt="main photo"
-    />
-    <div>
-        <h2>About me</h2>
-        <p>
-            Hi, I'm Denis – UX/UI designer from Minsk. 
-            I'm interested in design and everything connected with it.
-            I'm studying at courses "Web and mobile design 
-            interfaces" in IT-Academy.
-            Ready to implement excellent projects
-             with wonderful people.
-        </p>
-    </div>
-    <div>
-        <h2>Skills</h2>
-        <p>I work in such programs as</p>
-        <p>Adobe Photoshop</p>
-        <p>Adobe Illustrator</p>
-        <p>Adobe After Effects</p>
-        <p>Figma</p>
-    </div>
-    <div>
-        <h2>Portfolio</h2>
-        <p>Online fashion store - Homepage</p>
-        <p>Reebok Store - Concept</p>
-        <p>Braun Landing Page - Concept</p>
-    </div>
-    <div>
-        <h2>Contacts</h2>
-        <p>Want to know more or just chat? You are welcome!</p>
-    </div>
-    <div>
-        <p>Like me on LinkedIn, Instagram, Behance, Dribble</p>
+    <div class="container">
+        <div class="col-lg-6">
+            <p>Home</p>
+            <p>About me</p>
+            <p>Skills</p>
+            <p>Portfolio</p>
+            <p>Contacts</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <h1>Denis Novik</h1>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-lg-6 mx-auto">
+                <p>UX | UI designer 24 years old, Minsk</p>
+            </div>
+        </div>
+        <div>
+            <p>RU | ENG</p>
+        </div class="row">
+        <div class="col-lg-6 mx-auto">
+            <img class="img-fluid"
+              srcset="/sources/img/photo.png, /sources/img/photo@2x.png 2x"
+              src="/sources/img/photo.png"
+              alt="main photo"
+            />
+        </div>
+        <div class="row text-center ">
+            <div class="col-lg-6 mx-auto">
+                <h2>About me</h2>
+                <p>
+                    Hi, I'm Denis – UX/UI designer from Minsk. 
+                    I'm interested in design and everything connected with it.
+                    I'm studying at courses "Web and mobile design 
+                    interfaces" in IT-Academy.
+                    Ready to implement excellent projects
+                     with wonderful people.
+                </p>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-lg-6 mx-auto">
+                <h2>Skills</h2>
+                <p>I work in such programs as</p>
+                <p>Adobe Photoshop</p>
+                <p>Adobe Illustrator</p>
+                <p>Adobe After Effects</p>
+                <p>Figma</p>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-lg-6 mx-auto">
+                <h2>Portfolio</h2>
+                <p>Online fashion store - Homepage</p>
+                <p>Reebok Store - Concept</p>
+                <p>Braun Landing Page - Concept</p>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-lg-6 mx-auto">
+                <h2>Contacts</h2>
+                <p>Want to know more or just chat? You are welcome!</p>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-lg-6 mx-auto">
+                <p>Like me on LinkedIn, Instagram, Behance, Dribble</p>
+            </div>
+        </div>
     </div>
   </body>
 </html>
